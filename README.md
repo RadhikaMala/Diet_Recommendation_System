@@ -1,7 +1,6 @@
 ## 🥗 Diet Recommendation System
 A smart, Machine Learning–powered diet recommendation application that helps users receive personalized meal plans based on their health details such as BMI, exercise frequency, and sleep habits.
 
----
 
 ### 🧩 Main Page
 Users can enter basic health information through an interactive dashboard to receive diet recommendations.
@@ -17,14 +16,13 @@ Users can enter basic health information through an interactive dashboard to rec
 - Clean, responsive dashboard UI
 - Dynamic diet images based on prediction
 
----
 
 ### 📊 BMI & Health Analysis
 - Calculates BMI in real time
 - Classifies users into health categories (Underweight, Normal, Overweight, Obese)
 - Displays BMI clearly along with diet results
 
----
+
 
 ### 🍽️ Diet Recommendation Result
 - Uses a trained Machine Learning model to predict suitable diet plans
