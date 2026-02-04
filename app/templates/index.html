@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diet Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- Background Panels -->
+<div class="bg-left"></div>
+<div class="bg-right"></div>
+
+<!-- Dashboard -->
+<div class="dashboard">
+
+    <!-- Header -->
+    <header class="dashboard-header">
+        <span class="logo">🥗</span>
+        <h1>Diet Recommendation System</h1>
+        <p>Personalized meal plans using Machine Learning</p>
+    </header>
+
+    <!-- Main Card -->
+    <div class="dashboard-card">
+
+        <!-- Form -->
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" id="age">
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <select id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Height (cm)</label>
+                <input type="number" id="height">
+            </div>
+
+            <div class="form-group">
+                <label>Weight (kg)</label>
+                <input type="number" id="weight">
+            </div>
+
+            <div class="form-group">
+                <label>Exercise (days/week)</label>
+                <input type="number" id="exercise" min="0" max="7">
+            </div>
+
+            <div class="form-group">
+                <label>Sleep Hours</label>
+                <input type="number" id="sleep" min="3" max="10">
+            </div>
+        </div>
+
+        <button class="primary-btn" onclick="getDiet()">
+            🍽️ Get Recommendation
+        </button>
+
+        <!-- Result -->
+        <div id="result" class="result-panel hidden"></div>
+
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
