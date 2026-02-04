@@ -1,4 +1,4 @@
-## 📸 Screenshots
+## Diet Rcommendation
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
