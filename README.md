@@ -34,9 +34,9 @@ Users can enter basic health information through an interactive dashboard to rec
 ---
 
 ### 🛠️ Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python, Flask
-- Machine Learning: Scikit-learn, Pandas, NumPy
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python, Flask  
+- **Machine Learning:** Scikit-learn, Pandas, NumPy  
 
 ---
 
