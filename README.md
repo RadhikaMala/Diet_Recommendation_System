@@ -1,9 +1,7 @@
-# Diet Recommendation System
+## 📸 Screenshots
 
-ML-based Diet Recommendation System using Flask + HTML + CSS + JS.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-## Run
-cd app
-python app.py
-
-Open: http://127.0.0.1:5000
+### Diet Recommendation Result
+![Recommendation](screenshots/recommendation.png)
